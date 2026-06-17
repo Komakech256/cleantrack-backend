@@ -70,6 +70,14 @@ npm run dev
 
 The API runs at `http://localhost:5000`.
 
+If port `5000` is already in use, change `PORT` in `.env`, for example:
+
+```env
+PORT=5002
+```
+
+Then update the frontend `VITE_API_URL` to match.
+
 Quick health check:
 
 ```bash
