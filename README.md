@@ -36,6 +36,13 @@ CleanTrack Uganda is a student-learning waste management API built with Node.js,
    npm run db:setup
    ```
 
+For the default local setup used in this project, the MariaDB/MySQL username and password are both `root`:
+
+```env
+DB_USER=root
+DB_PASSWORD=root
+```
+
 `npm run db:setup` runs both `database/schema.sql` and `database/seed.sql`. The schema file recreates the `cleantrack_uganda` database, so do not run it against data you need to keep.
 
 Manual alternative:
